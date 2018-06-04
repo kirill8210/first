@@ -183,12 +183,9 @@ section{
 .point{
 	margin-bottom: 60px;
 }
-
-.point__item{
-	/*float: left;*/
-	/*width: 313px;*/
+.get{
+	font-weight: 600;
 }
-
 .point__number{
 	border: 1px solid #2f383b;
 	width:76px;
@@ -209,7 +206,7 @@ section{
 	padding-top: 15px;
 	font-size: 16px;
 	font-weight: bold;
-	width: 280px;
+	width: 240px;
 	margin: 0 auto;
 }
 
