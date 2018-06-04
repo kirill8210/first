@@ -1,0 +1,273 @@
+
+body{
+	font-family: Tahoma, Arial, sant-serif;
+	color: #2f383b;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 0;
+	margin: 0;
+}
+
+p{
+	padding: 0;
+	margin: 0;
+}
+
+ul,li{
+	box-sizing: border-box;
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+div, section, span{
+	box-sizing: border-box;
+}
+
+section{
+	padding: 78px 0 0;
+}
+
+.button:hover{
+	text-decoration: none;
+}
+
+/*первая секция*/
+
+.header{
+	background: #4e8598;
+	color: #fff;
+	padding-top: 54px;
+	padding-bottom: 54px;
+
+}
+
+.logo{
+	display: block;
+	margin: 0 auto;
+}
+
+.offer{
+	margin-top: 180px;
+	text-align: center;
+}
+
+.offer__title{
+	font-size: 27px;
+	width: 570px;
+	margin: 0 auto;
+}
+
+.offer__button{
+	border: 1px solid #fff;
+	color: #fff;
+	margin: 25px auto 0;
+}
+
+.button{
+	font-size: 13px;
+	border-radius: 100px;
+	font-weight: bold;
+	text-transform: uppercase;
+	display: inline-block;
+	text-decoration: none;
+	padding: 17px;
+}
+
+.offer__button:hover{
+	background: #fff;
+	color: #4e8598;
+}
+
+.arrow{
+	display: block;
+	margin: 175px auto 0;
+}
+
+/*вторая секция*/
+
+.section__title{
+	margin-bottom: 80px;
+	text-align: center;
+	font-size: 26px;
+	font-weight: bold;
+}
+
+/*Артём, подскажи как ещё можно было разделить две секции mission и merit?
+Я сделал по 50% на каждую*/
+
+.mission, .merit{
+	/*float: left;
+	width: 50%;*/
+}
+
+.line-title{
+	font-size: 22px;
+}
+
+.line-title:after{
+	content: '';
+	display: block;
+	width: 72px;
+	height: 3px;
+	background: #4e8598;
+	margin-top: 13px;
+}
+
+.mission__text{
+	padding: 25px 85px 7px 0;
+	/*padding: 15px;*/
+	font-size: 15px;
+	line-height: 1.4;
+	text-align: justify;
+}
+
+.honors{
+	margin-top: 18px;
+}
+
+.honors__item{
+	padding: 15px 0;
+	margin-bottom: 10px;
+}
+
+.honors__title{
+	color: #4e8598;
+	font-weight: bold;
+	font-size: 16px;
+	margin-right: 28px;
+}
+
+.honors__intro{
+	font-style: 15px;
+	color: #b6b8b8;
+}
+
+.honors__item_bug{
+	background: url('../img/bug.png') no-repeat left center;
+	padding-left: 63px;
+}
+
+.honors__item_bell{
+	background: url('../img/bell.png') no-repeat left center;
+	padding-left: 63px;
+}
+
+.honors__item_storm{
+	background: url('../img/storm.png') no-repeat 10px center;
+	padding-left: 63px;
+}
+
+.honors__item_camera{
+	background: url('../img/camera.png') no-repeat left center;
+	padding-left: 63px;
+}
+
+/*третья секция*/
+
+.info{
+	text-align: center;
+}
+
+.info__title{
+	margin-bottom: 67px;
+	text-align: center;
+	font-size: 26px;
+	font-weight: bold;
+}
+
+.point{
+	margin-bottom: 60px;
+}
+
+.point__item{
+	/*float: left;*/
+	/*width: 313px;*/
+}
+
+.point__number{
+	border: 1px solid #2f383b;
+	width:76px;
+	height:76px;
+	display:block;
+	border-radius:38px;
+	font-size:30px; 
+	line-height:72px;
+	margin: 0 auto;
+}
+
+.point__number:hover{
+	background: #2f383b;
+	color: #fff;
+}
+
+.point__title{
+	padding-top: 15px;
+	font-size: 16px;
+	font-weight: bold;
+	width: 280px;
+	margin: 0 auto;
+}
+
+.info__intro{
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.info__description{
+	font-size: 14px;
+	line-height: 1.4;
+	width: 400px;
+	padding: 26px 0;
+	margin: 0 auto;
+}
+
+.info__button{
+	border: 1px solid #2f383b;
+	color: #2f383b;
+	margin: 0 auto;
+	margin-bottom: 78px;
+}
+
+.info__button:hover{
+	background: #2f383b;
+	color: #fff;
+}
+
+/*четвертая секция*/
+
+.footer{
+	background: #2f383b;
+	padding: 48px 0;
+}
+
+.menu{
+	color: #b5b7b8;
+}
+
+.menu__item{
+	font-size: 13px;
+}
+
+.menu__item_police{
+	color: #f0f1f1;
+	border-bottom: 1px dotted #acafb1;
+	text-decoration: none;
+}
+
+/*.menu__item_one{
+	float: left;
+}
+
+.menu__item_two{
+	float: left;
+	padding-left: 280px;
+}
+
+.menu__item_three{
+	float: right;
+}*/
